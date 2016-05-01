@@ -7,7 +7,9 @@
   <body>
     <header class="main-header">
       <div class="container">
-        <img src="http://placehold.it/150x70" width="150" height="70" alt=""> <!--снять размеры -->
+        <div class="header-logo">
+          <img src="http://placehold.it/150x70" width="150" height="70" alt="Barbershop">
+        </div>
         <nav class="main-navigation">
           <ul>
             <li>
@@ -47,8 +49,8 @@
           </li>
         </ul>
       </nav>
-      <div class="index-content">
-        <form class="index-content-left" action="Shop.html" method="post">
+      <div class="products">
+        <form class="product-filter" action="Shop.html" method="post">
         <section class="manufacturer">
           <h2>Производители:</h2>
             <label>
@@ -91,66 +93,118 @@
               Аксессуары
           </label>
         </section>
-        <input type="submit" value="Показать">
-      </form>
-
-
-
-      </div>
-
-
-        <div class="index-content-left">
-          <h2 class="index-content-title">Новости</h2>
-          <ul class="news-preview">
-            <li>
-              <p>Нам наконец завезли ягермайстер! теперь вы&nbsp;модите пропустить стаканчик во&nbsp;время стрижки</p>
-              <data value="2016-01-11">11 января</data>
-            </li>
-            <li>
-              <p>В&nbsp;нашей команде пополнение, Борис &laquo;Бритва&raquo; Cтригунец обладатель множества титулов и&nbsp;наград пополнил наши стройные ряды</p>
-              <data value="2016-01-18">18 января</data>
-            </li>
-          </ul>
-          <a class="btn" href="#">Вне новости</a>
-        </div>
-        <div class="index-content-right">
-          <h2 class="index-content-title">Фотогалерея</h2>
-          <div class="gallary">
-            <figure class="gallery-content">
-              <img src="img/photo-1.jpg" width="286" height="164" alt="">
-            </figure>
-            <button class="btn gallery-prev">Назад</button>
-            <button class="btn gallery-next">Вперёд</button>
+        <input class="btn" type="submit" value="Показать">
+        </form>
+          <div class="product-catalog">
+            <article class="product-items">
+              <img src="http://placehold.it/150x70" width="150" height="70" alt="">
+              <h3>
+                Набор для путешествий<br>
+                "BAXTER OF CALIFORNIA"
+              </h3>
+              <table>
+                <tr>
+                  <td>
+                    <b>2 900 РУБ.</b>
+                  </td>
+                  <td>
+                    <a class="btn" href="#">КУПИТЬ</a>
+                  </td>
+                </tr>
+              </table>
+            </article>
+            <article class="product-items">
+              <img src="http://placehold.it/150x70" width="150" height="70" alt="">
+              <h3>
+                Увлажняющий кондиционер<br>
+                "BAXTER OF CALIFORNIA"
+              </h3>
+              <table>
+                <tr>
+                  <td>
+                    <b>750 РУБ.</b>
+                  </td>
+                  <td>
+                    <a class="btn" href="#">КУПИТЬ</a>
+                  </td>
+                </tr>
+              </table>
+            </article>
+            <article class="product-items">
+              <img src="http://placehold.it/150x70" width="150" height="70" alt="">
+              <h3>
+                Гель для волос<br>
+                "SUAVECITO"
+              </h3>
+              <table>
+                <tr>
+                  <td>
+                    <b>290 РУБ.</b>
+                  </td>
+                  <td>
+                    <a class="btn" href="#">КУПИТЬ</a>
+                  </td>
+                </tr>
+              </table>
+            </article>
+            <article class="product-items">
+              <img src="http://placehold.it/150x70" width="150" height="70" alt="">
+              <h3>
+                Глина для укладки волос<br>
+                "AMERICAN CREW"
+              </h3>
+              <table>
+                <tr>
+                  <td>
+                    <b>500 РУБ.</b>
+                  </td>
+                  <td>
+                    <a class="btn" href="#">КУПИТЬ</a>
+                  </td>
+                </tr>
+              </table>
+            </article>
+            <article class="product-items">
+              <img src="http://placehold.it/150x70" width="150" height="70" alt="">
+              <h3>
+                Гель для волос<br>
+                "AMERICAN CREW"
+              </h3>
+              <table>
+                <tr>
+                  <td>
+                    <b>300 РУБ.</b>
+                  </td>
+                  <td>
+                    <a class="btn" href="#">КУПИТЬ</a>
+                  </td>
+                </tr>
+              </table>
+            </article>
+            <article class="product-items">
+              <img src="http://placehold.it/150x70" width="150" height="70" alt="">
+              <h3>
+                Набор для бритья<br>
+                "BAXTER OF CALIFORNIA"
+              </h3>
+              <table>
+                <tr>
+                  <td>
+                    <b>3 900 РУБ.</b>
+                  </td>
+                  <td>
+                    <a class="btn" href="#">КУПИТЬ</a>
+                  </td>
+                </tr>
+              </table>
+            </article>
+            <ul class="product-pages">
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+            </ul>
           </div>
-        </div>
-      </div>
-      <div class="index-content">
-        <div class="index-content-left">
-          <h2 class="index-content-title">Контактная информация</h2>
-          <p>
-            Барбершоп &laquo;Бородинский&raquo;<br>
-            Адрес: г. Санкт-Петербург, Б.&nbsp;Конюшенная, д. 19/8<br>
-            Телефон: +7 (495) 666-02-66
-          </p>
-          <p>
-            Время работы:<br>
-            ПН-ПТ: с&nbsp;10:00 до&nbsp;22:00<br>
-            Сб-Вс: с&nbsp;10:00 до&nbsp;19:00
-          </p>
-          <a class="btn" href="#" >Как проехать</a>
-          <a class="btn" href="#">Обратная связь</a>
-        </div>
-        <div class="index-content-right">
-          <h2 class="index-content-title">Записаться</h2>
-          <p>Укажите желаемую дату и&nbsp;время и&nbsp;мы&nbsp;свяжемся с&nbsp;вами для подтверждения брони</p>
-          <form class="appointment-form" action="#" method="post">
-            <input type="text" name="date" value="" placeholder="Дата">
-            <input type="text" name="time" value="" placeholder="Время">
-            <input type="text" name="name" value="" placeholder="Ваше имя">
-            <input type="tel" name="phone" value="" placeholder="Телефон">
-            <button class="btn" type="submit">Отправить</button>
-          </form>
-        </div>
       </div>
     </main>
     <footer class="main-footer">
